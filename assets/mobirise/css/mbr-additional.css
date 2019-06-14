@@ -3348,32 +3348,79 @@ body {
 .cid-rgiyIh8VM3 .mbr-section-title {
   color: #ffffff;
 }
-.cid-rs5khl76xh {
+.cid-rtpJQl6Xej {
   padding-top: 45px;
+  padding-bottom: 45px;
+  background-color: #efefef;
+}
+.cid-rtpJQl6Xej P {
+  color: #767676;
+}
+.cid-rtpAJaLdWO {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/fondo1-2000x1249.png");
+}
+.cid-rtpAJaLdWO .list-group-item {
+  padding: .75rem 3.25rem;
+}
+.cid-rtpAJaLdWO .plan {
+  word-break: break-word;
+  position: relative;
+  max-width: 300px;
+  padding-right: 0;
+  padding-left: 0;
+  color: #767676;
+}
+.cid-rtpAJaLdWO .plan .list-group-item {
+  position: relative;
+  -webkit-justify-content: center;
+  justify-content: center;
+  border: 0;
+}
+.cid-rtpAJaLdWO .plan .list-group-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  width: 60%;
+  height: 2px;
+  content: "";
+  background-color: #eaeaea;
+}
+.cid-rtpAJaLdWO .plan .list-group-item:last-child::after {
+  display: none;
+}
+.cid-rtpAJaLdWO .plan-header {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.cid-rtpAJaLdWO .plan-header,
+.cid-rtpAJaLdWO .plan-body {
+  background-color: #fff;
+}
+.cid-rtpAJaLdWO .price-figure {
+  font-weight: 700;
+  color: #232323;
+}
+.cid-rtpAJaLdWO .price-value {
+  font-weight: 700;
+  vertical-align: top;
+}
+@media (max-width: 550px) {
+  .cid-rtpAJaLdWO .price-figure {
+    font-size: 4.25rem;
+  }
+}
+.cid-rtpAW936Cn {
+  padding-top: 90px;
   padding-bottom: 90px;
   background-color: #ffffff;
 }
-.cid-rs5khl76xh .title {
-  margin-bottom: 2rem;
-}
-.cid-rs5khl76xh .mbr-section-subtitle {
+.cid-rtpAW936Cn .mbr-section-subtitle {
   color: #767676;
 }
-.cid-rs5khl76xh a:not([href]):not([tabindex]) {
-  color: #fff;
-  border-radius: 3px;
-}
-.cid-rs5khl76xh a.btn-white:not([href]):not([tabindex]) {
-  color: #333;
-}
-.cid-rs5khl76xh .multi-horizontal {
-  flex-grow: 1;
-  -webkit-flex-grow: 1;
-  max-width: 100%;
-}
-.cid-rs5khl76xh .input-group-btn {
-  display: block;
-  text-align: center;
+.cid-rtpAW936Cn .btn {
+  margin: 0 0 .5rem 0;
 }
 .cid-rhZDTqN9CY {
   padding-top: 45px;
