@@ -55,7 +55,7 @@
     "versionPublish": "4.8.2",
     "screenshot": "screenshot.png",
     "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "publishPath": "@PROJECT_PATH@2"
   },
   "pages": {
     "index.html": {
