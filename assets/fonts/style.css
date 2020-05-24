@@ -1,4 +1,5 @@
 @font-face {
-   font-family: 'font';
-   src: url('font/font.ttf');
+   font-family: 'Discreet-Regular';
+   font-display: swap;
+   src: url('Discreet-Regular/font.ttf');
 }
