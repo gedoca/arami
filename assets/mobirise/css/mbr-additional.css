@@ -7546,8 +7546,16 @@ section.lazy-placeholder:after {
   border-radius: 50%;
   content: '✓';
 }
-.cid-rZVWqZnu2k {
-  padding-top: 30px;
+.cid-rZW0NMySs5 {
+  padding-top: 60px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-rZW0NMySs5 .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rZW0MOisp2 {
+  padding-top: 15px;
   padding-bottom: 60px;
   background-color: #ffffff;
 }
