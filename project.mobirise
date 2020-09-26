@@ -60,9 +60,7 @@
     "uniqCompNum": 261,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
-    "imageResize": true,
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "imageResize": true
   },
   "pages": {
     "index.html": {
