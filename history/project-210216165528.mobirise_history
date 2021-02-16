@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Arami",
-    "currentPage": "eneagrama1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -51,7 +51,7 @@
         "file": "@PROJECT_PATH@/fonts/font/font.ttf"
       }
     ],
-    "uniqCompNum": 201,
+    "uniqCompNum": 200,
     "versionPublish": "4.8.2",
     "screenshot": "screenshot.png",
     "publishType": "local",
@@ -3494,7 +3494,7 @@
             }
           },
           "_name": "content9",
-          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"65\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#7f1933\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text><a href=\"eneagrama1.html#content9-5f\">Taller de Introducción a la Psicología de los Eneatipos\n</a><div><a href=\"eneagrama1.html#content9-5f\">\n</a></div><div><a href=\"eneagrama1.html#content9-5f\">Marzo\n</a></div><div><a href=\"eneagrama1.html#content9-5f\">Jueves 25 / Viernes 26 de 19 a 22 hs\n</a></div><div><a href=\"eneagrama1.html#content9-5f\">Sábado 27 de 10 a 13.30 y de 15.30 a 19 hs\n</a></div><div><br></div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"65\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#7f1933\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>Taller de Introducción a la Psicología de los Eneatipos\n<div>\n</div><div>Marzo\n</div><div>Jueves 25 / Viernes 26 de 19 a 22 hs\n</div><div>Sábado 27 de 10 a 13.30 y de 15.30 a 19 hs\n</div><div><br></div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
           "_cid": "sp8760POug",
           "_anchor": "content9-5f",
           "_protectedParams": [],
@@ -3507,25 +3507,34 @@
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
-            ".mbr-text, blockquote": {
-              "color": "#767676"
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
             },
-            ".mbr-text DIV": {
-              "text-align": "center"
-            },
-            ".mbr-text": {
-              "text-align": "center",
+            ".section-text": {
+              "padding": "2rem 0",
               "color": "#ffffff"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
             }
           },
-          "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#7d222b\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p><a href=\"eneagrama1.html#content1-5k\"></a>Inversión\n</p><div>$ 8500\n</div><div>Medios de Pago\n</div><div>Transferencia Bancaria/Mercado Pago (Tarjetas crédito y debito)\n</div><div>Consultar por\n</div><div>Becas\n</div><div>Descuentos por grupos, parejas y familia</div><p></p></div>\n        </div>\n    </div>\n</section>",
-          "_cid": "spdeKJkjzg",
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"66\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#7d222b\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text><a href=\"eneagrama1.html#content9-5i\">\n                    Inversión\n                </a><div><a href=\"eneagrama1.html#content9-5i\">$ 8500\n</a></div><div><a href=\"eneagrama1.html#content9-5i\">Medios de Pago\n</a></div><div><a href=\"eneagrama1.html#content9-5i\">Transferencia Bancaria/Mercado Pago (Tarjetas crédito y debito)\n</a></div><div><a href=\"eneagrama1.html#content9-5i\">\n</a></div><div><a href=\"eneagrama1.html#content9-5i\">Consultar por\n</a></div><div><a href=\"eneagrama1.html#content9-5i\">Becas\n</a></div><div><a href=\"eneagrama1.html#content9-5i\">Descuentos por grupos, parejas y familia</a></div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "sp88Bx9CM6",
+          "_anchor": "content9-5i",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-5k"
+          "_params": {}
         },
         {
           "_styles": {
